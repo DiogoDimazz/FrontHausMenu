@@ -21,6 +21,6 @@ function Main() {
       <div className='main-despensa'>Despensa</div>
     </div>
   );
-}
+};
 
 export default Main;
