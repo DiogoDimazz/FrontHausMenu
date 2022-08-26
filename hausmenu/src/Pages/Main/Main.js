@@ -1,5 +1,6 @@
 import './styles.css';
 import { useNavigate } from 'react-router-dom'
+import pastaPhoto from '../../assets/Massa-daria-shevtsova.jpeg'
 
 function Main() {
   const navigate = useNavigate()
@@ -7,18 +8,19 @@ function Main() {
   return (
     <div className="main-page">
       <header>
-        <h1>HAUSMENU</h1>
-        <button
-          className='golden-btn'
-          onClick={() => navigate('/login')}
-        >
-          login
-        </button>
+        AQUI VAI FICAR UM COMPONENTE HEADER. Lembrete: Procurar fontes!
       </header>
-      <div className='main-lista'>Lista de Compras</div>
-      <div className='main-cardapio'>Cardápio</div>
-      <div className='main-receitas'>Receitas</div>
-      <div className='main-despensa'>Despensa</div>
+      <main className='main-main'>
+        <div className='left-main'>
+          <section className='left-section'>
+            <div className='left-logo'>HAUSMENU</div>
+            <div className='left-slogan'>Facilitando o seu prazer de cozinhar!</div>
+          </section>
+        </div>
+        <div className='right-main'>
+          <img className='main-img' src={pastaPhoto} alt='Pasta-prep' />
+        </div>
+      </main>
     </div>
   );
 };
