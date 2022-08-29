@@ -5,64 +5,51 @@
   display: flex;
   flex-direction: column;
 
-  background-color: black;
-}
-
-header {
-  color: white;
-  background-color: gray;
-  font-weight: 700;
-  height: 10%;
-  width: 100%;
-}
-
-.main-main {
-  height: calc(100% - 10%);
-  width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
 
-  padding: 2rem 6rem 4rem 4rem;
+  position: relative;
+
+  background-image: url('../../assets/Mesa-lukas-349609.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.left-main {
-  width: 40%;
-  height: 100%;
 
-  color: white;
+.main-frame {
+  width: 80%;
+  height: 80%;
+
+  border: solid 1px var(--orange-100);
+}
+
+.inner-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: solid 2px var(--white-100);
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/Mesa-lukas-349609.jpeg');
+  background-size: 120%;
+  background-position-x: -105px;
+  background-position-y: -50px;
+  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-
-  margin-right: 3rem;
+  align-items: center;
 }
 
-.left-section {
-  color: white;
-  width: 80%;
-  height: 60%;
-}
-
-.left-logo {
-  font-size: 48px;
-  font-weight: 700;
-
-  margin-bottom: 3rem;
-}
-
-.left-slogan {
-  font-size: 36px;
-  font-weight: 100;
-}
-
-.right-main {
-  width: 60%;
-}
-
-.main-img {
+.main-form {
   width: 100%;
-  transform: rotate(4deg);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
