@@ -6,10 +6,10 @@
 }
 
 .list-notepad {
-    height: 100%;
-    width: 70%;
+    height: 97%;
+    width: 51.5%;
     background-image: url('../../assets/notepad.png');
-    background-size: 74%;
+    background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 1rem;
 
@@ -17,14 +17,49 @@
     flex-direction: column;
 }
 
-.list-title {
-    height: 90%;
-    width: 65.5%;
-    margin: 1rem 3rem;
 
+.list-title {
+    width: calc(100% - 2rem);
+    margin-left: 2rem;
+}
+
+.list-title {
     display: flex;
     justify-content: center;
+    padding: 1rem 1rem 0rem 2rem;
 }
+
+.list-section {
+    width: calc(100% - 2rem);
+    margin-left: 4rem;
+    margin-bottom: 0.3rem;
+}
+
+/* .list-section-name {
+    padding: 0 1rem 0.25rem 2rem;
+}
+
+.list-items {
+    padding: 0 1rem 1rem 2rem;
+}
+
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    transform: scale(1.1);
+}
+
+.grocerie-checked {
+    text-decoration: line-through;
+    font-style: italic;
+} */
+
 
 .list-filter {
     height: 100%;
