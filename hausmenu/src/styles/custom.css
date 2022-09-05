@@ -1,5 +1,6 @@
 #root {
     --white-100: rgb(253, 248, 242);
+    --white-100-5: rgba(253, 248, 242, 0.5);
 
     --orange-100: rgb(253, 235, 216);
     --orange-200: rgb(185, 172, 74);
@@ -18,6 +19,10 @@
 
 }
 
+.hidden {
+    display: none;
+}
+
 .logo-font {
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
@@ -28,9 +33,8 @@
 
 .descriptive-font {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    text-shadow: var(--coffee-200) 0 0 2px, 0px 0px 1px var(--coffee-300);
+    font-size: 12px;
+    font-weight: 400;
     color: var(--coffee-300);
 }
 
@@ -39,6 +43,14 @@
     font-size: 16px;
     font-weight: 500;
     color: var(--coffee-300);
+}
+
+.header-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--coffee-300);
+    text-shadow: var(--coffee-200) 2px 0 4px;
 }
 
 .body-text {

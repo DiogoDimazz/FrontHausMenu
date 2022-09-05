@@ -1,0 +1,70 @@
+.section-content {
+    padding-bottom: 0.1rem;
+    border-bottom: solid 1px var(--ruby-100);
+
+    margin-left: 6rem;
+    margin-bottom: 0.6rem;
+    max-width: calc(100% - 7rem);
+}
+
+
+.section-title {
+    margin-bottom: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+}
+
+.hide-show-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    margin-left: 0.4rem;
+}
+
+
+.section-list {
+    padding-left: 1rem;
+    list-style: circle;
+    list-style-position: outside;
+}
+
+.section-item-line {
+    display: flex;
+    align-items: center;
+    height: 14px;
+}
+
+.section-item {
+    cursor: pointer;
+}
+
+.section-title:hover,
+.section-item:hover {
+    text-shadow: var(--coffee-200) 0 0 1px;
+}
+
+.cross {
+    text-decoration: line-through;
+}
+
+
+.little-box {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.3rem;
+    margin-left: 0.3rem;
+    color: var(--green-200);
+    font-family: "Roboto", sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.little-box-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.45rem;
+    font-weight: 500;
+}

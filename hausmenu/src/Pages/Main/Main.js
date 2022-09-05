@@ -2,6 +2,7 @@ import './styles.css';
 import { useNavigate } from 'react-router-dom'
 import AuthCard from '../../Components/Authenticate/Auth'
 import ListPage from '../../Components/ListPage/ListPage'
+import Header from '../../Components/Header/Header';
 function Main() {
   const navigate = useNavigate()
 
@@ -11,8 +12,8 @@ function Main() {
         <div className='main-frame'>
           <div className='inner-frame'>
             <div className='main-container'>
-              <div className='logo logo-font'>HausMARKET</div>
               <section className='main-content'>
+                <Header />
                 <ListPage />
               </section>
             </div>
