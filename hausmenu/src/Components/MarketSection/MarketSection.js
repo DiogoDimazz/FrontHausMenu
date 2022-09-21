@@ -24,7 +24,6 @@ export default function MarketSection({ section }) {
 
     function hideTag() {
         spanRef.current.classList.add('hidden')
-
     }
 
     function showHideItems() {

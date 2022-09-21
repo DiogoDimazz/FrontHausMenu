@@ -1,5 +1,5 @@
 #root {
-    --white-100: rgb(253, 248, 242);
+    --white-100: #fdf8f2;
     --white-100-5: rgba(253, 248, 242, 0.5);
 
     --orange-100: rgb(253, 235, 216);
@@ -28,6 +28,13 @@
     font-size: 32px;
     font-weight: 500;
     text-shadow: var(--coffee-200) 0 0 4px, var(--coffee-300) 0 0 2px;
+    color: var(--coffee-300);
+}
+
+.alternative-font {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 400;
     color: var(--coffee-300);
 }
 

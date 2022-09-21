@@ -1,24 +1,19 @@
 import './styles.css'
-import Select from 'react-select'
 import sections from '../../Lists/Sections'
+import arrow from '../../assets/arrow.svg'
 
 export default function FilterSection() {
 
-
-
-
     return (
         <section className='filter-main'>
-            <Select
-                defaultInputValue={[sections[0], sections[2]]}
-                isMulti
-                name='sections'
-                options={sections}
-                placeholder='Escolha a seção'
-                className='basic-multi-select'
-                classNamePrefix="select"
-                closeMenuOnSelect={false}
-            />
+            <div className='filter-select'>
+                <input
+                    type='text'
+                    className='filter-select-box'
+                    placeholder='Escolha a seção'
+                />
+                <img src={arrow} alt='arrow' className='filter-arrow' />
+            </div>
         </section>
     )
 }
