@@ -1,6 +1,7 @@
 #root {
     --white-100: #fdf8f2;
     --white-100-5: rgba(253, 248, 242, 0.5);
+    --gray-100: #b9b6b2;
 
     --orange-100: rgb(253, 235, 216);
     --orange-200: rgb(185, 172, 74);
@@ -111,4 +112,21 @@
     text-decoration: underline;
     color: var(--green-200);
     text-shadow: 0 0 1px var(--green-200);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--white-100);
+}
+
+
+::-webkit-scrollbar-thumb {
+    margin: 0.4rem;
+    background: var(--gray-100);
+    border-radius: 8px;
 }
