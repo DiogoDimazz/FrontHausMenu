@@ -39,10 +39,24 @@
     color: var(--coffee-300);
 }
 
+.tiny-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--coffee-300);
+}
+
 .descriptive-font {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
+    color: var(--coffee-300);
+}
+
+.descriptive-bold-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
     color: var(--coffee-300);
 }
 
