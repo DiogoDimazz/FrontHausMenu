@@ -1,0 +1,30 @@
+.sections {
+    height: 15%;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 var(--coffee-200);
+
+    padding: 0.3rem;
+
+    background-color: var(--white-100-7);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    row-gap: 0.1rem;
+
+    overflow-y: auto;
+}
+
+.section-box {
+    display: flex;
+    width: fit-content;
+    padding: 0.2rem 0.25rem;
+    border-radius: 2px;
+    box-shadow: 1px 0.6px 4px 0 var(--coffee-200);
+
+    cursor: pointer;
+}
+
+.section-box:hover {
+    transform: scale(1.05);
+}
