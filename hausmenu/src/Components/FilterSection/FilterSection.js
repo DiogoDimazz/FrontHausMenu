@@ -1,7 +1,7 @@
 import './styles.css'
 import SearchInput from '../SearchInput/SearchInput'
 import SectionsSelect from '../SectionsSelect/SectionsSelect'
-import ProductList from '../ProductList/ProductList'
+import ShelfList from '../ShelfList/ShelfList'
 
 export default function FilterSection() {
 
@@ -9,7 +9,7 @@ export default function FilterSection() {
         <section className='filter-main'>
             <SearchInput />
             <SectionsSelect />
-            <ProductList />
+            <ShelfList />
         </section>
     )
 }

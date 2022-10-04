@@ -1,0 +1,26 @@
+.product-list {
+    background-color: var(--white-100-7);
+    height: 70%;
+
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 var(--coffee-200);
+
+    padding: 0.3rem 0.6rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem
+}
+
+.shelf-items {
+    list-style: none;
+    cursor: pointer;
+
+    display: flex;
+    align-self: flex-start;
+    padding-left: 1rem;
+}
+
+.shelf-items:hover {
+    transform: scale(1.1);
+}

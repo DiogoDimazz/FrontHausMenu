@@ -5,7 +5,7 @@ import useConsumer from '../../Hooks/useConsumer'
 export default function SectionsSelect() {
     const { sectionFiltered, setSectionFiltered } = useConsumer()
     const localFilter = [...sectionFiltered]
-    const selectedStyle = { backgroundColor: 'var(--green-100)', color: 'var(--white-100)' }
+    const selectedStyle = { backgroundColor: 'var(--orange-300)', color: 'var(--white-100)' }
     const unselectedStyle = { backgroundColor: 'var(--orange-100)', color: 'var(--coffee-300)' }
 
     function sectionSelection(value) {
@@ -24,7 +24,7 @@ export default function SectionsSelect() {
                 <span
                     key={id}
                     style={sectionFiltered.includes(value) ? selectedStyle : unselectedStyle}
-                    className='tiny-font section-box'
+                    className='descriptive-bold-font section-box'
                     onClick={() => sectionSelection(value)}
                 >
                     {label}

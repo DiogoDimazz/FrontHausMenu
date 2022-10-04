@@ -19,7 +19,7 @@ function ListPage() {
         const sectionsObj = []
         let i = 1;
 
-        listaDeCompras.forEach(item => {
+        groceries.forEach(item => {
             if (!sections.includes(item.section)) {
                 const sectionObject = { id: i, section: item.section }
                 i++;
@@ -50,6 +50,9 @@ function ListPage() {
                         </div>
                     ))
                 }
+            </section>
+            <section className='list-info'>
+                List Info
             </section>
         </main>
     )

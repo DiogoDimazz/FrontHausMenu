@@ -16,14 +16,6 @@
     align-items: center;
 }
 
-.hide-show-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 8px;
-    font-weight: 400;
-    margin-left: 0.4rem;
-}
-
-
 .section-list {
     padding-left: 1rem;
     list-style: circle;
@@ -33,7 +25,9 @@
 .section-item-line {
     display: flex;
     align-items: center;
-    height: 14px;
+    justify-content: space-between;
+    padding-right: 8rem;
+    height: 18px;
 }
 
 .section-item {
@@ -45,10 +39,17 @@
     text-shadow: var(--coffee-200) 0 0 1px;
 }
 
+.section-title:hover::after {
+    content: 'mostrar/esconder itens';
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    margin-left: 0.4rem;
+}
+
 .cross {
     text-decoration: line-through;
 }
-
 
 .little-box {
     width: fit-content;
@@ -67,4 +68,48 @@
     font-family: 'Roboto', sans-serif;
     font-size: 0.45rem;
     font-weight: 500;
+}
+
+
+.item-btns {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.small-btn {
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.55rem;
+
+    border: none;
+    padding: 0.1rem 0.2rem;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 0.5px 2px 0 var(--coffee-300);
+
+    cursor: pointer;
+
+}
+
+.remove-item {
+    margin-left: 0.3rem;
+    background-color: var(--ruby-100);
+    color: var(--white-100);
+}
+
+.remove-item:hover {
+    background-color: var(--ruby-200);
+}
+
+.add-obs {
+    margin-left: 0.3rem;
+    background-color: var(--green-100);
+    color: var(--white-100);
+}
+
+.add-obs:hover {
+    background-color: var(--green-200);
 }
