@@ -1,0 +1,52 @@
+.list-main {
+    height: 95%;
+    width: 100%;
+
+    display: flex;
+
+    padding: 0rem 1rem 0rem 1rem;
+    justify-content: space-between;
+
+    gap: 1rem
+}
+
+
+.list-filter {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.list-notepad {
+    height: 97.2%;
+    width: 50%;
+    background-image: url('../../assets/notepad.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -0.78rem -0.17rem;
+    margin-top: 1rem;
+    overflow-y: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+
+.list-title {
+    max-width: calc(100% - 2rem);
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem 0.3rem 2rem;
+}
+
+.list-info {
+    width: 20%;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    background-color: rgba(120, 120, 120, 0.5);
+}

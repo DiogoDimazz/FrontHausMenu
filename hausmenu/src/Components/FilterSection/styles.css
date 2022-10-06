@@ -1,0 +1,9 @@
+.filter-main {
+    padding-left: 2.5rem;
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

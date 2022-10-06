@@ -1,0 +1,149 @@
+#root {
+    --white-100: #fdf8f2;
+    --white-100-5: rgba(253, 248, 242, 0.5);
+    --white-100-7: rgba(253, 248, 242, 0.7);
+    --gray-100: #b9b6b2;
+
+    --orange-100: rgb(253, 235, 216);
+    --orange-200: rgb(185, 172, 74);
+    --orange-300: rgb(175, 96, 39);
+
+    --coffee-100: rgb(124, 104, 91);
+    --coffee-200: rgba(85, 57, 39, 1);
+    --coffee-300: rgb(28, 19, 13);
+
+    --ruby-100: rgb(173, 123, 123);
+    --ruby-200: rgb(106, 4, 4);
+    --ruby-300: rgb(32, 2, 2);
+
+    --green-100: rgb(100, 163, 85);
+    --green-200: rgb(62, 103, 53);
+
+}
+
+.hidden {
+    display: none;
+}
+
+.logo-font {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-shadow: var(--coffee-200) 0 0 4px, var(--coffee-300) 0 0 2px;
+    color: var(--coffee-300);
+}
+
+.alternative-font {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--coffee-300);
+}
+
+.tiny-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    color: var(--coffee-300);
+}
+
+.descriptive-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--coffee-300);
+}
+
+.descriptive-bold-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--coffee-300);
+}
+
+.larger-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--coffee-300);
+}
+
+.header-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--coffee-300);
+    text-shadow: var(--coffee-200) 2px 0 4px;
+}
+
+.body-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--coffee-300);
+}
+
+.cursive-text {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 22px;
+    color: var(--coffee-300);
+}
+
+.primary-btn {
+    width: 10rem;
+
+    padding: 0.5rem;
+
+    background-color: var(--coffee-200);
+    background-image: url('../assets/wood-pattern.png');
+    background-blend-mode: lighten;
+    border-top: solid 1px var(--coffee-100);
+    border-left: solid 1px var(--coffee-100);
+    border-bottom: solid 1px var(--coffee-300);
+    border-right: solid 1px var(--coffee-300);
+    border-radius: 8px;
+
+    box-shadow: 0 0 4px black;
+}
+
+.primary-btn span {
+    color: var(--white-100);
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 200;
+
+    text-shadow: 1px 1px 9px var(--coffee-200),
+        -1px -1px 6px var(--coffee-300),
+        0 0 3px black;
+}
+
+.primary-btn:hover {
+    background-color: var(--coffee-200);
+    cursor: pointer;
+}
+
+
+
+.link-to:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--green-200);
+    text-shadow: 0 0 1px var(--green-200);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--white-100);
+}
+
+
+::-webkit-scrollbar-thumb {
+    margin: 0.4rem;
+    background: var(--gray-100);
+    border-radius: 8px;
+}
