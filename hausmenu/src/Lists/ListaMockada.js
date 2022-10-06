@@ -152,7 +152,99 @@ const listaDeCompras = [
         section: 'Hortifruti',
         substitution: 'roxa',
         quantity: null
+    },
+    {
+        id: 122,
+        item: 'Queijo muçarela',
+        section: 'Frios e Laticínios',
+        substitution: 'queijo minas padrão',
+        quantity: null
+    },
+    {
+        id: 123,
+        item: 'Óleo',
+        section: 'Mercearia',
+        substitution: null,
+        quantity: null
+    },
+    {
+        id: 124,
+        item: 'Mortadela',
+        section: 'Frios e Laticínios',
+        substitution: 'NADA substitui mortadela',
+        quantity: null
+    },
+    {
+        id: 125,
+        item: 'Presunto',
+        section: 'Frios e Laticínios',
+        substitution: 'Se tiver mortadela é melhor',
+        quantity: null
+    },
+    {
+        id: 126,
+        item: 'Açúcar',
+        section: 'Mercearia',
+        substitution: null,
+        quantity: '1kg'
+    },
+    {
+        id: 127,
+        item: 'Açúcar demerara',
+        section: 'Mercearia',
+        substitution: null,
+        quantity: '1kg'
+    },
+    {
+        id: 128,
+        item: 'Azeitonas',
+        section: 'Enlatados e Conservas',
+        substitution: null,
+        quantity: null
+    },
+    {
+        id: 129,
+        item: 'Milho Verde',
+        section: 'Enlatados e Conservas',
+        substitution: null,
+        quantity: '3 latas'
+    },
+    {
+        id: 130,
+        item: 'Amaciante',
+        section: 'Higiene e Limpeza',
+        substitution: 'Flores do Campo',
+        quantity: null
+    },
+    {
+        id: 131,
+        item: 'Sabão em Pó',
+        section: 'Higiene e Limpeza',
+        substitution: null,
+        quantity: null
+    },
+    {
+        id: 132,
+        item: 'Frango assado',
+        section: 'Rotisseria',
+        substitution: null,
+        quantity: null
+    },
+    {
+        id: 133,
+        item: 'Donuts',
+        section: 'Rotisseria',
+        substitution: null,
+        quantity: null
+    },
+    {
+        id: 134,
+        item: 'Salgadinhos variados',
+        section: 'Rotisseria',
+        substitution: null,
+        quantity: null
     }
+
 ]
 
 export default listaDeCompras
